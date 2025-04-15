@@ -34,13 +34,19 @@
     height: 150px;
     text-align: center;
 }
-.card img {
-    width: 30%;
+.card-img {
+    display: flex;
 }
-.card h3 {
+.card-img-imagem img {
+    width: 60%;
+}
+.card-img-imagem h3 {
     margin-top: 8px;
 }
 #chk {
+    display: none;
+}
+.cnk {
     display: none;
 }
 .switch {
@@ -66,24 +72,25 @@
 #chk:checked ~ .switch {
     background-color: var(--Red-700);
 }
+input:checked[type="checkbox"].switch {
+    background-color: red;
+}
 #chk:checked ~ .switch .slider{
     transform: translateX(6px);
 }
-.card-img {
-    display: flex;
-}
+
 .card-button {
     display: flex;
     justify-content: space-between;
 }
-.card-button button{
+.card-button-button button{
     display: flex;
     padding: 5px;
     border-radius: 8px;
     background: transparent;
     border: 1px solid var(--Neutral-300) ;
 }
-.card-button h3{
+.card-button-button h2{
     margin: 0;
     font-size: 8px;
     font-weight: normal;
