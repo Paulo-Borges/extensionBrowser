@@ -44,6 +44,7 @@ function carregar() {
                 cardButtonLabel.classList.add('card-button-label')
 
                 const inputCnk = document.createElement('input')
+                inputCnk.id = 'chk'
                 inputCnk.classList.add('chk')
 
                 const labelSwitch = document.createElement('label')
@@ -51,7 +52,6 @@ function carregar() {
                 labelSwitch.classList.add('chk')
                 
                 const spanSlider = document.createElement('span')
-                inputCnk.id = 'chk'
                 spanSlider.classList.add('slider')
 
                 cardImg.appendChild(cardImgImagem)
