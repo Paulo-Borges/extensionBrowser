@@ -1,0 +1,34 @@
+h1.title {
+    display: flex;
+    font-family: "Noto Sans";
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.choice {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.active {
+    background: var(--Red-700);
+    border-radius: 20px;
+    font-family: "Noto sans";
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: var(--Neutral-0);
+    border: none;
+    border: 1px solid var(--Neutral-300);
+}
+.choice-button {
+    background: var(--Neutral-0);
+    font-family: "Noto sans";
+    border-radius: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: var(--Neutral-900);
+    border: none;
+    border: 1px solid var(--Neutral-300);
+
+}
