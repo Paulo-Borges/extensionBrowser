@@ -11,6 +11,9 @@ h1.title {
     justify-content: center;
     gap: 12px;
 }
+.choice button:hover {
+    background: var(--Neutral-300);
+}
 .active {
     background: var(--Red-700);
     border-radius: 20px;
@@ -30,5 +33,4 @@ h1.title {
     color: var(--Neutral-900);
     border: none;
     border: 1px solid var(--Neutral-300);
-
 }

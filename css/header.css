@@ -14,3 +14,11 @@
     border-radius: 8px;
     padding: 6px;
 }
+.base-img-troca button {
+    border: none;
+    background: transparent;
+}
+.base-img-troca:hover {
+    background: var(--Neutral-0);
+    border: 1px solid var(--Neutral-200);
+}
