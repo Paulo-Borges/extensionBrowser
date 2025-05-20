@@ -27,6 +27,9 @@ body {
 .base {
     background-color: var(--background-fundo);
 }
+.base.active {
+    background-color: var(--Neutral-900);
+}
 .footer {
     display: flex;
     justify-content: center;
