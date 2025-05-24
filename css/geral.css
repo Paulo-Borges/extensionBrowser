@@ -45,3 +45,6 @@ body {
 .footer a:hover{
     color: var(--Red-700);
 }
+.backZero {
+    display: none;
+}

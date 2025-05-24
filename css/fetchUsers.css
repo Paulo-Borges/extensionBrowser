@@ -1,0 +1,31 @@
+.fetchCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background: var(--Neutral-0);
+    border: 1px solid var(--Neutral-300);
+    border-radius: 8px;
+    padding: 16px;
+    width: 320px;
+    height: 150px;
+}
+.fetchCardImg {
+    display: flex;
+    margin-bottom: 30px;
+}
+.fetchCardImg img {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+.fetchCardTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.fetchCardButton {
+    display: flex;
+    justify-content: space-between;
+}

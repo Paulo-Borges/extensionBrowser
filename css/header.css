@@ -18,9 +18,9 @@
     border: none;
     background: transparent;
 }
-[data-fetch].active {
+/* [data-fetch].active {
     background: var(--Neutral-900);
-}
+} */
 .base-img-troca:hover {
     background: var(--Neutral-0);
     border: 1px solid var(--Neutral-200);

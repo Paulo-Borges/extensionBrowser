@@ -7,6 +7,7 @@
             
             data.map(dados => {
                 const card = document.createElement('div')
+                card.id = 'all'
                 card.classList.add('card')
 
                 const cardImg = document.createElement('div')

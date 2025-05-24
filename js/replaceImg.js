@@ -1,7 +1,4 @@
 export default function replaceImg() {
-
-}
-
 document.addEventListener('DOMContentLoaded', function() {
    const botao = document.querySelector('[data-fetch]')
    const imagem = document.querySelector('[data-troca]')
@@ -17,9 +14,13 @@ botao.addEventListener('click', function() {
             button.classList.add('active')
         } else {
             imagem.src = imagemOriginal;
+            button.classList.remove('active')
         }
     });
 
 })
+}
+
+
 
    
