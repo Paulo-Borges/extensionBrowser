@@ -12,7 +12,7 @@ export default function extract() {
                itemDiv.innerHTML = `
                <div class="fetchCardImg">
                <img src="${item.logo}" alt="${item.name}">
-               <div class="fetchCardTitle">
+               <div class="fetchCardTitle limited-text">
                 <h3>${item.name}</h3>
                 <p>${item.description}</p>
                 </div>
