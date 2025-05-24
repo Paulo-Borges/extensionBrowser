@@ -34,3 +34,12 @@ h1.title {
     border: none;
     border: 1px solid var(--Neutral-300);
 }
+@media(min-width: 600px) {
+    .titleChoice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}

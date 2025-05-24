@@ -44,6 +44,7 @@
 }
 .fetchCardButton button{
     font-family: 'Noto Sans';
+    cursor: pointer;
     font-size: 10px;
     padding: 4px;
     border-radius: 8px;
@@ -51,4 +52,7 @@
     font-weight: 500;
     text-transform: capitalize;
     background: transparent;
+}
+.fetchCardButton button:hover{
+    border: 1px solid var(--Red-700);
 }
