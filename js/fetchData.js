@@ -18,7 +18,7 @@ export default function extract() {
                 </div>
                 </div>
                 <div class="fetchCardButton">
-                <button>remove</button>
+                <button id="remove">remove</button>
                 <div class="card-button-label">
                  <input type="checkbox" id="chk" class="chk" />
                  <label for="chk" class="switch" class="chk">
@@ -35,5 +35,18 @@ export default function extract() {
         })
 }
  fetchUsers()
+
+//  const remove = document.querySelector('remove')
+//   console.log(remove)
+
+//   const cssText = document.querySelector('.css')
+
+//     // remove.addEventListener('click', filterFetch)
+
+//  function filterFetch(event) {
+//   console.log(event.target)
+//   console.log(cssText)
+  
+//  }
 } 
 

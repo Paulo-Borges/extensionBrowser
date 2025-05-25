@@ -22,6 +22,7 @@ export default function showList() {
         outputDiv.innerHTML = '<p>Nenhum item ativo encontrado.</p>';
     }
 }
+showActiveItems()
     
 }
 
