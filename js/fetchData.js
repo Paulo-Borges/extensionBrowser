@@ -39,13 +39,14 @@ export default function extract() {
 //  const remove = document.querySelector('remove')
 //   console.log(remove)
 
-//   const cssText = document.querySelector('.css')
+  
 
-//     // remove.addEventListener('click', filterFetch)
+//     remove.addEventListener('click', filterFetch)
 
 //  function filterFetch(event) {
-//   console.log(event.target)
-//   console.log(cssText)
+// event.preventDefault()
+//   console.log(event)
+  
   
 //  }
 } 
