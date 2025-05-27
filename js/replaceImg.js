@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
 botao.addEventListener('click', function() {
         if (imagem.getAttribute('src') === imagemOriginal) {
             imagem.src = novaImagem;
-            fundo.classList.toggle('active')
-            button.classList.add('active')
+            fundo.classList.toggle('activeGroup')
+            button.classList.add('activeGroup')
         } else {
             imagem.src = imagemOriginal;
-            button.classList.remove('active')
+            button.classList.remove('activeGroup')
         }
     });
 

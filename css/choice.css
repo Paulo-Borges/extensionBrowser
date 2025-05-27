@@ -24,6 +24,10 @@ h1.title {
     border: none;
     border: 1px solid var(--Neutral-300);
 }
+.activeGroup {
+    background: var(--Red-700);
+    border-radius: 20px;
+}
 .choice-button {
     background: var(--Neutral-0);
     font-family: "Noto sans";
