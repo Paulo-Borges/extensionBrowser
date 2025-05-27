@@ -25,7 +25,7 @@ h1.title {
     border: 1px solid var(--Neutral-300);
 }
 .activeGroup {
-    background: var(--Red-700);
+    background: var(--Neutral-900);
     border-radius: 20px;
 }
 .choice-button {
